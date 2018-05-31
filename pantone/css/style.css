@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+/* reset */
+html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p ,a,address,em,img,strong,b,u,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,tbody,tfoot,thead,tr,th,td,article,aside,canvas,footer,header,nav,section{margin: 0;padding: 0;border: 0;}
+main{display: block;}
+ol,ul{list-style: none;}
+table{border-collapse: collapse;border-spacing: 0;}
+a{display: block;color: #333;text-decoration: none;}
+img{display: block;}
+
+/* common */
+body,button,input,select,table,textarea{color: #333;font-size: 14px;font-family: 'Roboto', 'Noto Sans KR', '맑은 고딕', 'Malgun Gothic', sans-serif;letter-spacing: -1px;}
+.inner_ct{margin: 0 auto;width: 1220px;}
+.ir{background-repeat: no-repeat;text-indent: -9999px;}
+.clearfix:after{content: "";display: block;clear: both;}
+.ellipsis{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+/* layout */
+body{min-width: 1220px;}
+.wrap{}
+#header{position: relative;z-index: 30;}
+.container{position: relative;z-index: 20;}
+#footer{position: absolute;z-index: 10;}
+
+/* module */
