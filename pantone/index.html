@@ -3,7 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <title>Pantone</title>
-  <link rel="stylesheet" href="css/style.css">
+  <meta property="og:title" content="Pantone 마이크로 사이트">
+  <meta property="og:description" content="본 페이지는 개인 포트폴리오 용도로 제작되었습니다.">
+  <meta property="og:image" content="imgs/og_img.png">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="shortcut icon" type="text/css" href="favicon.ico">
   <script type="text/javascript" src="assets/jquery.min.js"></script>
   <!-- font-family: 'Roboto', sans-serif; -->
@@ -36,7 +39,7 @@
                 </div>
               </a>
             </div>
-            <div class="visual_squ squ_area">
+            <div data-tilt class="visual_squ squ_area">
               <div class="squ_line">
                 <i class="s_line s_line_1"></i>
                 <i class="s_line s_line_2"></i>
@@ -90,7 +93,7 @@
             <div class="intro_star">
               <div class="star_main">
                 <div class="color_bg">
-                  <svg width="1000" height="1000" class="star">
+                  <svg class="star">
                     <filter id="blur">
                       <feGaussianBlur in="SourceGraphic" stdDeviation="1" />
                     </filter>
@@ -201,8 +204,8 @@
               </a></li>
             </ul>
             <div class="tab_cnt_wrap">
-              <div class="tab_cnt cnt_1 on">
-                <div class="cover_img"></div>
+              <div class="tab_cnt cnt_1">
+                <div class="cover_img ir">2017년 올해의 컬러 배경 이미지</div>
                 <div class="color_box">
                   <div class="color_bg"></div>
                   <div class="color_cnt">
@@ -213,7 +216,7 @@
                 </div>
               </div>
               <div class="tab_cnt cnt_2">
-                <div class="cover_img"></div>
+                <div class="cover_img ir">2016년 올해의 컬러 배경 이미지</div>
                 <div class="color_box clearfix">
                   <div class="box box_1">
                     <div class="color_bg"></div>
@@ -234,7 +237,7 @@
                 </div>
               </div>
               <div class="tab_cnt cnt_3">
-                <div class="cover_img"></div>
+                <div class="cover_img ir">2015년 올해의 컬러 배경 이미지</div>
                 <div class="color_box">
                   <div class="color_bg"></div>
                   <div class="color_cnt">
@@ -245,7 +248,7 @@
                 </div>
               </div>
               <div class="tab_cnt cnt_4">
-                <div class="cover_img"></div>
+                <div class="cover_img ir">2014년 올해의 컬러 배경 이미지</div>
                 <div class="color_box">
                   <div class="color_bg"></div>
                   <div class="color_cnt">
@@ -256,7 +259,7 @@
                 </div>
               </div>
               <div class="tab_cnt cnt_5">
-                <div class="cover_img"></div>
+                <div class="cover_img ir">2013년 올해의 컬러 배경 이미지</div>
                 <div class="color_box">
                   <div class="color_bg"></div>
                   <div class="color_cnt">
@@ -267,7 +270,7 @@
                 </div>
               </div>
               <div class="tab_cnt cnt_6">
-                <div class="cover_img"></div>
+                <div class="cover_img ir">2012년 올해의 컬러 배경 이미지</div>
                 <div class="color_box">
                   <div class="color_bg"></div>
                   <div class="color_cnt">
@@ -278,7 +281,7 @@
                 </div>
               </div>
               <div class="tab_cnt cnt_7">
-                <div class="cover_img"></div>
+                <div class="cover_img ir">2011년 올해의 컬러 배경 이미지</div>
                 <div class="color_box">
                   <div class="color_bg"></div>
                   <div class="color_cnt">
@@ -289,7 +292,7 @@
                 </div>
               </div>
               <div class="tab_cnt cnt_8">
-                <div class="cover_img"></div>
+                <div class="cover_img ir">2010년 올해의 컬러 배경 이미지</div>
                 <div class="color_box">
                   <div class="color_bg"></div>
                   <div class="color_cnt">
@@ -365,11 +368,13 @@
               <div class="product">
                 <div class="product_bg"></div>
                 <div class="product_1">
-                  <div class="com_squ">
-                    <svg width="68" height="68">
-                      <rect x="3" y="3" width="62" height="62"
-                      style="fill:transparent;stroke:#fff;stroke-width:3;stroke-opacity:1" />
-                    </svg>
+                  <div class="com_squ squ_area">
+                    <div class="squ_line">
+                      <i class="s_line s_line_1"></i>
+                      <i class="s_line s_line_2"></i>
+                      <i class="s_line s_line_3"></i>
+                      <i class="s_line s_line_4"></i>
+                    </div>
                   </div>
                   <img class="mug_img" src="imgs/4_work_mug.png" alt="팬톤 머그잔">
                   <div class="cnt">
@@ -378,11 +383,13 @@
                   </div>
                 </div>
                 <div class="product_2">
-                  <div class="com_squ">                
-                    <svg width="202" height="202">
-                      <rect x="3" y="3" width="106" height="106"
-                      style="fill:transparent;stroke:#fff;stroke-width:3;stroke-opacity:1" />
-                    </svg>
+                  <div class="com_squ squ_area">
+                    <div class="squ_line">
+                      <i class="s_line s_line_1"></i>
+                      <i class="s_line s_line_2"></i>
+                      <i class="s_line s_line_3"></i>
+                      <i class="s_line s_line_4"></i>
+                    </div>
                   </div>
                   <img class="app_img" src="imgs/4_work_phone.png" alt="팬톤 앱">
                   <div class="cnt">
@@ -430,15 +437,14 @@
       <div class="full_ct">
         <div class="site_link clearfix">
           <ul class="official_pg">
-            <li class="list"><a href="#">PANTONE</a></li>
-            <li class="list"><a href="#">PANTONE KOREA</a></li>
+            <li class="list"><a href="https://www.pantone.com/" target="_blank">PANTONE</a></li>
+            <li class="list"><a href="http://pantone.kr/" target="_blank">PANTONE KOREA</a></li>
           </ul>
           <ul class="sns_pg">
-            <li class="list"><a href="#" class="ir sns_1">트위터로 가기</a></li>
-            <li class="list"><a href="#" class="ir sns_2">페이싀북으로 가기</a></li>
-            <li class="list"><a href="#" class="ir sns_3">핀터레스트로 가기</a></li>
-            <li class="list"><a href="#" class="ir sns_4">인스타그램로 가기</a></li>
-            <li class="list"><a href="#" class="ir sns_5">인사이트로 가기</a></li>
+            <li class="list"><a href="https://twitter.com/pantonekr" target="_blank" class="ir sns_1">트위터로 가기</a></li>
+            <li class="list"><a href="https://ko-kr.facebook.com/%ED%8C%AC%ED%86%A4%EB%84%B7-pantone-korea-209566185815543/" target="_blank" class="ir sns_2">페이싀북으로 가기</a></li>
+            <li class="list"><a href="https://www.pinterest.co.kr/pantonecolor/" target="_blank" class="ir sns_3">핀터레스트로 가기</a></li>
+            <li class="list"><a href="https://www.instagram.com/pantonepaint/" target="_blank" class="ir sns_4">인스타그램로 가기</a></li>
           </ul>
         </div>
         <div class="copyright">This site is designed for personal portfolio purposes.</div>
@@ -446,5 +452,6 @@
     </footer>
   </div>
   <script type="text/javascript" src="js/script.js"></script>
+  <script type="text/javascript" src="assets/tilt.jquery.min.js"></script>
 </body>
 </html>

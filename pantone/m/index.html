@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>Pantone</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <style>
+    
+    /* reset */
+    html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p ,a,address,em,img,strong,b,u,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,tbody,tfoot,thead,tr,th,td,article,aside,canvas,footer,header,nav,section{margin: 0;padding: 0;border: 0;}
+
+    /* common */
+    body,button,input,select,table,textarea{color: #333;font-size: 14px;font-family: 'Roboto', 'Noto Sans KR', '맑은 고딕', 'Malgun Gothic', sans-serif;}
+    .ir{background-repeat: no-repeat;text-indent: -9999px;}
+    .clearfix:after{content: "";display: block;clear: both;}
+    .ellipsis{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+
+    /* layout */
+    body{overflow-x: hidden;font-size: 10px;}
+    html,body,.wrap,.full_ct{height: 100%;}
+    .full_ct{position: relative;width: 100%;}
+    .bg{position: absolute;top: 0;left: 0;width: 100%;height: 100%;background-image: url(../imgs/1_main_visual.png);}
+    .squ_area{position: absolute;top: 100px;left: 50%;width: 80%;height: 370px;transform: translateX(-50%);}
+    .squ_line{position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+    .squ_line .s_line{position: absolute;background-color: #fff;}
+    .squ_line .s_line_1{top: 0;left: 0;width: 100%;height: 2px;}
+    .squ_line .s_line_2{top: 0;right: 0;height: 100%;width: 2px;}
+    .squ_line .s_line_3{bottom: 0;right: 0;width: 100%;height: 2px;}
+    .squ_line .s_line_4{bottom: 0;left: 0;height: 100%;width: 2px;}
+    .squ_cnt{color: #fff;}
+    .cnt_1{padding: 115px 15px 90px;}
+    .cnt_1 .txt{text-align: right;line-height: 0.95;}
+    .cnt_1 .txt_1{font-size: 4.375em;font-weight: 100;}
+    .cnt_1 .txt_2{font-size: 4.812em;font-weight: 700;}
+    .cnt_2 .txt{font-size: 2.125em;font-weight: 700;text-align: center;}
+    .notice{position: absolute;top: 490px;left: 0;width: 100%;color: #fff;font-size: 1.5em;font-weight: 300;letter-spacing: -1px;text-align: center;}
+    @media screen and (min-width:500px){
+    body{font-size: 14px;}
+    .squ_area{width: 480px;height: 480px;}
+    .cnt_1{padding: 138px 15px 110px;}
+    .notice{top: 610px;}
+    }
+  </style>
+  <!-- font-family: 'Roboto', sans-serif; -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+  <!-- font-family: 'Noto Sans KR', sans-serif; -->
+  <link href="https://fonts.googleapis.com/earlyaccess/notosanskr.css" rel="stylesheet">
+</head>
+<body>
+  <div class="wrap">
+    <div class="full_ct">
+      <div class="bg"></div>
+      <div class="squ_area">
+        <div class="squ_line">
+          <i class="s_line s_line_1"></i>
+          <i class="s_line s_line_2"></i>
+          <i class="s_line s_line_3"></i>
+          <i class="s_line s_line_4"></i>
+        </div>
+        <div class="squ_cnt">
+          <div class="cnt_1">
+            <p class="txt txt_1">EXPLORE</p>
+            <p class="txt txt_2">ULTRA<br>VIOLET</p>
+          </div>
+          <div class="cnt_2">
+            <p class="txt">PANTONE 18-3838</p>
+          </div>  
+        </div>
+      </div>
+      <p class="notice">본 홈페이지는 모바일 버전을 지원하지 않습니다.</p>
+    </div>
+  </div>
+</body>
+</html>
